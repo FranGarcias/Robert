@@ -1,0 +1,16 @@
+[Unit]
+Description=Robert backend (ESP32 link + PWA)
+After=network-online.target avahi-daemon.service
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=frangarciaroca
+WorkingDirectory=/home/frangarciaroca/robert/pi
+ExecStart=/home/frangarciaroca/robert/pi/.venv/bin/python -m robert.main
+Restart=always
+RestartSec=2
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
