@@ -1,0 +1,16 @@
+[Unit]
+Description=Robert voice (wake word + Gemini + speech)
+After=network-online.target robert.service sound.target
+Wants=network-online.target
+
+[Service]
+Type=simple
+User=frangarciaroca
+WorkingDirectory=/home/frangarciaroca/robert/pi
+ExecStart=/home/frangarciaroca/robert/pi/.venv/bin/python -m robert.voice.service
+Restart=always
+RestartSec=2
+Environment=PYTHONUNBUFFERED=1
+
+[Install]
+WantedBy=multi-user.target
