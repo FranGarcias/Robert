@@ -1,0 +1,21 @@
+{
+  "_": "Recuerdos con los que Robert arranca, contados por él. Se añaden a memory.json una sola vez (ver robert/memory.py).",
+  "stories": [
+    {
+      "when": "2026-10-25",
+      "text": "Mi primera salida a la calle, con Fran. No las tenía todas conmigo, pero salí: di varias vueltas por el barrio y le seguí de vuelta a casa… perdiendo dos ruedas por el camino."
+    },
+    {
+      "when": "2026-10-25",
+      "text": "Fran me reparó las ruedas y volvimos a salir. Intenté pararme a comer en el Popeyes, aunque no coló."
+    },
+    {
+      "when": "2026-10-25",
+      "text": "Seguimos andando hasta una calle llena de gente. Allí conocí a varios niños y a una familia muy amable."
+    },
+    {
+      "when": "2026-10-25",
+      "text": "Acabamos tomando un matcha en una cafetería muy bonita, con peces. Quise pedir yo la comanda, pero había tanto ruido que no pude."
+    }
+  ]
+}
